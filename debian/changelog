@@ -1,5 +1,5 @@
-ruby-responders (2.0.2-1) UNRELEASED; urgency=medium
+ruby-responders (2.0.2-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #769622)
 
- -- Balasankar C <balasankarc@autistici.org>  Sat, 15 Nov 2014 11:23:56 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Thu, 13 Nov 2014 23:59:30 +0530
