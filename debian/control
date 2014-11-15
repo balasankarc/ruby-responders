@@ -1,0 +1,20 @@
+Source: ruby-responders
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb, rake
+Standards-Version: 3.9.5
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-responders.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-responders.git;a=summary
+Homepage: http://github.com/plataformatec/responders
+Testsuite: autopkgtest
+XS-Ruby-Versions: all
+
+Package: ruby-responders
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+# railties (< 5, >= 4.2.0.alpha)
+Description: A set of Rails responders to dry up your application
+ A set of Rails responders to dry up your application
