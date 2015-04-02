@@ -14,8 +14,8 @@ XS-Ruby-Versions: all
 Package: ruby-responders
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
-Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
-# railties (< 5, >= 4.2.0.alpha)
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter,
+ ruby-railties 
 Description: set of Rails responders to dry up your application
  A set of Rails responders to dry up your application. Responders is a 
  repository of Rails 3 responders like FlashResponder, HttpCacheResponder.
