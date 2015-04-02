@@ -1,3 +1,7 @@
+## 2.1.0
+
+* No longer automatically set the responders generator as many projects may use this gem as a dependency. When upgrading, users will need to add `config.app_generators.scaffold_controller :responders_controller` to their application. The `responders:install` generator has been updated to automatically insert it in new applications
+
 ## 2.0.1
 
 * Require `rails/railtie` explicitly before using it
@@ -8,7 +12,7 @@
 
 * Import `respond_with` and class-level `respond_to` from Rails
 * Support only Rails ~> 4.2
-* `Responders::LocationResponder` is now included by in the default responder (and therefore deprecated)
+* `Responders::LocationResponder` is now included by the default responder (and therefore deprecated)
 
 ## 1.1.0
 
